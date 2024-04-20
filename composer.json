@@ -1,8 +1,12 @@
 {
-    "name": "nao-pon/flysystem-google-drive",
+    "name": "khoazero123/flysystem-google-drive",
     "description": "Flysystem adapter for Google Drive",
     "license": "MIT",
     "authors": [
+        {
+            "name": "KhoaZero123",
+            "email": "khoazero123@gmail.com"
+        },
         {
             "name": "Naoki Sawada",
             "email": "hypweb@gmail.com"
@@ -10,7 +14,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "league/flysystem": "~1.0",
+        "league/flysystem": "~3.0",
         "google/apiclient": "^2.0",
         "nao-pon/flysystem-cached-extra": "~1.0"
     },
